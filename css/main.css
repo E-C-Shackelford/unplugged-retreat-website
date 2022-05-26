@@ -429,7 +429,7 @@ aside {
   /* Footer */
   footer .content-wrapper {
     margin: 100px 0;
-    width: 75%;
+    width: 70%;
   }
 
   .footer-content {
@@ -485,6 +485,52 @@ aside {
 }
 
 @media only screen and (min-width: 1200px) {
+  /* General Styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Hero */
+  .hero-area h1 {
+    width: 65%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 33%;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 87%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reviews */
+  .reviews article div {
+    width: 50%;
+  }
+
+  /* About Page */
+
+  .mission h2,
+  .contact-section .contact-wrapper h2 {
+    width: 90%;
+  }
+
+  /* FAQ Page */
+
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
