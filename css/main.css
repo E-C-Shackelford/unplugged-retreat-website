@@ -126,7 +126,7 @@ h4 {
 
 p {
   font-size: 0.875em;
-  line-height: 1.4375;
+  line-height: 1.5;
 }
 
 img {
@@ -230,8 +230,12 @@ footer .social-icons {
 
 footer .social-icons p {
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
   display: flex;
+  height: 40px;
   justify-content: center;
+  width: 40px;
 }
 
 footer .copyright {
@@ -342,11 +346,12 @@ input[type="button"] {
 }
 
 .reviews h2 {
+  line-height: 1.2;
   margin-bottom: 40px;
-  line-height: 1;
 }
 
 .reviews h3 {
+  line-height: 1.3;
   margin: 20px 0;
   width: 55%;
 }
@@ -595,6 +600,7 @@ input[type="button"] {
   }
 
   .features .features-item-description {
+    line-height: 1.5;
     width: 60%;
   }
 
@@ -611,12 +617,17 @@ input[type="button"] {
 
   .reviews article figure,
   .reviews article div {
+    padding-left: 30px;
     width: 50%;
   }
 
   .reviews h3 {
     margin: 0;
     width: 50%;
+  }
+
+  .reviews p {
+    line-height: 1.5;
   }
 
   /* Footer */
@@ -639,11 +650,16 @@ input[type="button"] {
 
   footer h4 {
     font-size: 1.5em;
-    margin-bottom: 50px;
+    margin-bottom: 40px 0;
   }
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12.5em;
   }
 
   footer .copyright {
@@ -660,6 +676,7 @@ input[type="button"] {
   }
 
   .mission-content p {
+    line-height: 1.5;
     width: 45%;
   }
 
@@ -698,7 +715,10 @@ input[type="button"] {
   .faq h4,
   .faq p {
     font-size: 0.875em;
-    line-height: 1.125;
+  }
+
+  .faq .content-wrapper .faq-content p {
+    line-height: 1.5;
   }
 }
 
