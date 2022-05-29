@@ -123,8 +123,15 @@ h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
-  margin: 20px 0;
   font-weight: 500;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+}
+
+h4 {
+  margin: 20px 0;
 }
 
 p {
@@ -270,6 +277,7 @@ footer .copyright {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2;
+  margin: 0 0 5px 0;
 }
 
 /* Aside */
@@ -319,7 +327,7 @@ input[type="button"] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .features article {
@@ -522,6 +530,29 @@ input[type="button"] {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (max-width: 280px) {
+  /* Global Styles */
+
+  .content-wrapper {
+    margin: 30px 0;
+  }
+
+  /* Header */
+
+  header nav {
+    font-size: 1.0625em;
+    width: 90%;
+  }
+
+  /* Hero Area */
+
+  .hero-area h1 {
+    font-size: 2.0625em;
+    line-height: 1.2;
+    margin: 5px 0 30px 0;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /* Global Styles */
   .content-wrapper {
@@ -597,7 +628,7 @@ input[type="button"] {
   /* Features */
 
   .features h2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .features article {
@@ -762,7 +793,7 @@ input[type="button"] {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width: 80%;
+    width: 100%;
   }
 
   /* Aside */
