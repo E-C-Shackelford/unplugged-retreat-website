@@ -727,6 +727,10 @@ input[type="button"] {
     padding-bottom: 56.25%;
   }
 
+  .contact-section {
+    padding: 30px 60px;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
