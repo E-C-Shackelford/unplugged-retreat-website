@@ -530,7 +530,7 @@ input[type="button"] {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 400px) {
   /* Global Styles */
 
   .content-wrapper {
@@ -541,7 +541,7 @@ input[type="button"] {
 
   header nav {
     font-size: 1.0625em;
-    width: 90%;
+    width: 85%;
   }
 
   /* Hero Area */
